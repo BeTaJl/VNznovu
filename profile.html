@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/smallReset.css">
+  <link rel="stylesheet" href="css/chillax.css">
+  <link rel="stylesheet" href="css/plus-jakarta-sans.css">
+  <title>VideoNova</title>
+</head>
+<body>
+  <div class="_wrapper">
+    <header>
+      <div class="_container header_container">
+        <div class="header">
+          <div class="header_logo">
+            <a href="index.html">
+              <img src="img/Logo_header.png" alt="logo">
+            </a>
+          </div>
+          <div class="header_enter">
+            <div class="userProfile">
+              <img src="img/ava/Anna_May.png" alt="user profile photo">
+              <div class="button_text">Anna May</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="_container">
+        <div class="profile profile_user">
+          <div class="profile_avatar profile_avatar__big avatar_img">
+            <img class="" src="img/ava/Anna_May.png" alt="avatar"/>
+          </div>
+          <div class="profile_name">
+            <p class="h3">Anna May</p>
+          </div>
+        </div>
+
+        <div class="bestUser_container">
+          <div class="bestUser ">
+            <div class="bestUser_content">
+              <div class="bestUser_text">
+                <p class="h2">Anna May’s Videos</p>
+              </div>
+              <div class="bestUser_star">
+                <img src="img/video-square.svg" alt="video">
+              </div>
+            </div>
+            <a href="#popupAddNewVideo" class="popup-link">
+              <button class="primary_btn button_text">
+                Add
+              </button>
+            </a>
+          </div>
+          <div class="quatroGrid">
+            <div class="quatroGrid_body">
+              <div class="quatroGrid_item">
+                <div class="item">
+                  <div class="itemVideo">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/edk_hWSVe7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                  </div>
+                  <div class="itemVideo_Name">
+                    <p class="videoName h3">ROK</p>
+                    <p class="videoInfo text">KORN, LIMP BIZKIT, SYSTEM OF A DOWN, DEFTONES, SLIPKNOT ....</p>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer_container _container">
+        <div class=" footer">
+          <div class="footer_logo">
+            <a href="index.html">
+              <img src="img/Logo_footer.jpg" alt="logo">
+            </a>
+          </div>
+          <div class="footer_text">
+            <p>All Rights Reserved 2022</p>
+          </div>
+          <div class="footer_internet">
+            <a href="http://telegram.org">
+              <img class="footer_internet__img" src="img/telegram.png" alt="telegram">
+            </a>
+            <a href="http://discord.gg">
+              <img class="footer_internet__img" src="img/discord.png" alt="discord">
+            </a>
+            <a href="https://twitter.com/">
+              <img class="footer_internet__img" src="img/twitter.png" alt="twitter">
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <div id="popupAddNewVideo" class="popup ">
+    <div class="popup_body">
+      <div class="popup_content">
+        <a href="Profile.html" class="popup_close close-popup">&#10006</a>  <!-- &#10006  - це код хрестика -->
+        <div class="popup_container ">
+          <p class="h1 popupName"> Add <span>New</span> Video </p>
+  <!--        <form  action="#" method="post" enctype="multipart/form-data">-->
+            <div class="popupInfo">
+              <div class="field">
+                <div class="field_text">
+                  <p class="h3">Youtube Link</p>
+                </div>
+                <div class="field_input">
+                  <input class="field_input__place text" type="text" placeholder="Past link..."/>
+                </div>
+              </div>
+              <div class="field">
+                <div class="field_text">
+                  <p class="h3">Name of video</p>
+                </div>
+                <div class="field_input">
+                  <input class="field_input__place text" type="text" placeholder="Type name..."/>
+                </div>
+              </div>
+              <div class="field">
+                <div class="field_text">
+                  <p class="h3">Description</p>
+                </div>
+                <div class="field_input big_input">
+                  <input class="field_input__place text" type="text" placeholder="Type description..."/>
+                </div>
+              </div>
+            </div>
+            <div class="popupBtn__AddNewVideo">
+              <button class="button button_text close-popup">
+                Cancel
+              </button>
+              <button class="primary_btn button_text">
+                Submit
+              </button>
+            </div>
+  <!--        </form>-->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/ajax.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/showPopup.js"></script>
+</body>
+</html>
